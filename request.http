@@ -1,0 +1,45 @@
+//create user post request
+POST http://127.0.0.1:4000/signup HTTP/1.1
+content-type: application/json
+
+{
+    
+    "name": "desdfdsgdgdrt5gdrrrn",
+    "email": "ddrrfsdgrr3eddfd5r@gg.com",
+    "password":"12345"
+}
+
+###
+//delete a user
+DELETE http://127.0.0.1:4000/user/6 HTTP/1.1
+
+###
+//create category
+POST http://127.0.0.1:4000/user/6 HTTP/1.1
+content-type: application/json
+
+{
+    
+    "name": "",
+}
+
+###
+POST http://127.0.0.1:4000/menu HTTP/1.1
+content-type: application/json
+
+{
+    "title": "ddr3"
+}
+
+###
+GET http://127.0.0.1:4000/menu HTTP/1.1
+content-type: application/json
+
+###
+POST http://127.0.0.1:4000/signin HTTP/1.1
+content-type: application/json
+
+{
+   "name":"erfan"
+
+}
